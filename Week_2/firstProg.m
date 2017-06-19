@@ -1,0 +1,1 @@
+function A = try0()A = eye(5)end
