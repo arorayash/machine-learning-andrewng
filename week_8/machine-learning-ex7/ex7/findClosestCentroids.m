@@ -21,6 +21,7 @@ idx = zeros(size(X,1), 1);
 % Note: You can use a for-loop over the examples to compute this.
 %
 
+
 m = size(X,1)
 
 for i = 1:m
@@ -31,7 +32,6 @@ for i = 1:m
     [d, d_idx] = min(distance_array);
     idx(i,1) = d_idx;
 end
-
 
 
 
